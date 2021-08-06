@@ -41,9 +41,9 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 30px;
   cursor: pointer;
   font-size: 1.1rem;
+  margin: 0 30px;
   padding-bottom: 5px;
   position: relative;
   transition: all 0.2s 0s;
@@ -55,14 +55,14 @@ nav ul li:hover {
 
 nav ul li::after {
   content: "";
-  height: 2px;
+  height: 4px;
   background: var(--primaryColor);
   width: 100%;
   transition: all 0.2s 0s;
   position: absolute;
   opacity: 0%;
   left: 0;
-  bottom: -5px;
+  bottom: -20px;
   right: 0;
 }
 
