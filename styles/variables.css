@@ -2,5 +2,6 @@
   --bg: #fff;
   --primaryTextColor: #000;
   --primaryColor: #805cd4;
-  --navbarHeight: 80px;
+  --navbarHeight: 70px;
+  --textShadow: rgba(0, 0, 0, 0.5);
 }
