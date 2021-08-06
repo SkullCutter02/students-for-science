@@ -80,4 +80,14 @@ nav ul li:hover::after {
   nav .logo h1 {
     display: none;
   }
+
+  nav ul li {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav ul li {
+    margin: 0 15px;
+  }
 }
