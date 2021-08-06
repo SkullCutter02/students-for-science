@@ -13,6 +13,15 @@
     <link rel="stylesheet" href="./styles/nav.css" />
     <link rel="stylesheet" href="./styles/hero.css" />
     <link rel="shortcut icon" type="image/x-icon" href="./public/logo.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css"
+    />
   </head>
   <body>
     <nav>
@@ -31,9 +40,28 @@
 
     <main class="hero">
       <div class="overlay"></div>
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ui class="glide__slides">
+            <li class="glide__slide">
+              <img src="./public/home-hero.jpg" alt="" />
+            </li>
+            <li class="glide__slide">
+              <img src="./public/home-hero.jpg" alt="" />
+            </li>
+            <li class="glide__slide">
+              <img src="./public/home-hero.jpg" alt="" />
+            </li>
+          </ui>
+        </div>
+      </div>
       <div class="hero-content">
         <h1>Empowering and inspiring communities through science education</h1>
       </div>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+
+    <script src="./scripts/heroGlide.js"></script>
   </body>
 </html>
