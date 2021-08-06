@@ -36,3 +36,16 @@
   transform: translate(-50%, -50%);
   width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+  .hero .hero-content {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .hero .hero-content h1 {
+    font-size: 2rem;
+    height: 80%;
+  }
+}
