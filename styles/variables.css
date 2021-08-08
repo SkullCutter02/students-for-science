@@ -1,7 +1,9 @@
 :root {
   --bg: #fff;
   --primaryTextColor: #000;
+  --secondaryTextColor: #5d5d5d;
   --primaryColor: #805cd4;
   --navbarHeight: 80px;
   --textShadow: rgba(0, 0, 0, 0.5);
+  --alternateFont: "Play", serif;
 }
