@@ -57,7 +57,7 @@ nav ul li a {
   place-content: center;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
   color: var(--primaryColor);
 }
 
