@@ -28,3 +28,10 @@
   text-align: justify;
   line-height: 1.5em;
 }
+
+@media screen and (max-width: 600px) {
+  .impact-container {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
