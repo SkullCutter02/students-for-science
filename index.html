@@ -7,12 +7,16 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Students for Science</title>
+
+    <script src="./components/Head.js" defer></script>
+    <script src="./components/Nav.js" defer></script>
+
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/nav.css" />
     <link rel="stylesheet" href="./styles/hero.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="./public/logo.png" />
+
+    <head-component></head-component>
 
     <link
       rel="stylesheet"
@@ -24,19 +28,7 @@
     />
   </head>
   <body>
-    <nav>
-      <div class="logo">
-        <img src="./public/logo.png" alt="Logo" />
-        <h1>
-          <a href="./index.html"> Students for Science </a>
-        </h1>
-      </div>
-      <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Impact</li>
-      </ul>
-    </nav>
+    <nav-component></nav-component>
 
     <main class="hero">
       <div class="overlay"></div>
