@@ -4,7 +4,7 @@ nav {
   position: relative;
   display: flex;
   border-top: 6px solid var(--primaryColor);
-  box-shadow: 0 -8px 20px 10px #585858;
+  box-shadow: 0 -8px 15px 6px #979797;
 }
 
 nav a {
