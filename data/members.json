@@ -26,15 +26,33 @@
     },
     {
       "id": 5,
+      "name": "Jacky",
+      "position": "Co-Founder",
+      "bio": "Just like hundreds of years ago, when The Enlightenment Resulted in an unstoppable gush of science, which stood as beacon, guiding the people out of ignorance, science has always opened the window for us to peek into the truth and core of the world with its beauty, which fascinates me always. Similar to the philosophers, we stretch out to nature and its principles by asking endless questions caused by our curiosity. Before coming across this project, my process of exploration is motivated by the pleasure of discovering new things. But now I suddenly realize that everyone has the right to be an explorer, with the seed of curiosity in their hearts, waiting for the right temperature, air and water only. For those who lack this right environmental condition , all they need is a bit of help from others and sunlight shall penetrate through the clouds. So I wish to do my part and reach out for those who are in needed. As what J.K.Rowling wrote in Harry Potter “We are as strong as we are united”. Let us do this together!"
+    },
+    {
+      "id": 6,
       "name": "Alan Au",
       "position": "Co-head of Tech",
       "bio": "Hi, my name is Alan Au, and I am the Co-head of Technology at Students for Science, and my responsibilities cover everything related to tech, including the making of this website. I like watching movies, gaming, and coding, as well as playing the oboe and the drums. I've been coding for one and a half year now, and web development for around a year. I'm proficient in both the frontend and the backend of web development."
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Alvin Ng",
       "position": "Co-head of Tech",
       "bio": "Hello everyone! My name is Alvin Ng, and I am the co-head of technology at Students for Science. Web development and music are both big parts of my life, which is why I often spend my free time coding and designing websites or playing the violin. I am particularly passionate about front-end web development, and I hope I will be able to contribute to and promote this project through my passion for coding and web design."
+    },
+    {
+      "id": 8,
+      "name": "Jonathan Wu",
+      "position": "Co-head of Film and Media",
+      "bio": "My passion for science arose from an early age. When I was studying in the Singapore local school system, my family subscribed to the magazine “Young Scientist”. Every month, we would receive colorfully illustrated magazines covering scientific topics ranging from marine biology to astrophysics. Reading these magazines cultivated my interest towards science to where it is today. Because of this, I believe that all children should have the opportunity to develop a passion for science, and I hope that Students for Science can help provide that."
+    },
+    {
+      "id": 9,
+      "name": "Yuzen Wong",
+      "position": "Co-head of Film and Media",
+      "bio": "Growing up, I always loved to discover and learn new things. I would constantly bombard my parents with questions about how things around me worked, or why things even happen. For example, I would ask questions like why is the sky blue? What makes a car move? Or why is grandpa starting to forget things? Luckily, being a child who comes from a privileged family, I had the resources to expand my knowledge in science and have all my questions answered. However, as I grew older, I realised that many children in Hong Kong are not as fortunate as I am. Therefore, through Students for Science, I hope to give the underprivileged children of Hong Kong the opportunity to learn science to better understand the world around them and have all their questions answered too. "
     }
   ]
 }

@@ -14,9 +14,7 @@ fetch("../data/members.json")
     members.forEach((member) => {
       output += `
         <section class="member-container">
-          <img src="./public/members/member-${member.id}.jpg"
-            onerror="this.src = './public/members/member.jpg'; this.onerror = null;" alt="${member.name}"
-          >
+          <img src="./public/members/member-${member.id}.jpg" alt="${member.name}">
           <div class="member-text-container">
             <h1 class="member-name">${member.name}</h1>
             <div class="separator"></div>
@@ -43,9 +41,7 @@ fetch("../data/members.json")
             <p class="member-bio">${members[i].bio}</p>
           </div>
           <div class="about-us-modal-image-container">
-            <img src="./public/members/member-${members[i].id}.jpg"
-              onerror="this.src = './public/members/member.jpg'; this.onerror = null;" alt="${members[i].name}"
-            >
+            <img src="./public/members/member-${members[i].id}.jpg" alt="${members[i].name}">
           </div>
         `;
       });

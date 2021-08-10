@@ -5,6 +5,16 @@
   overflow-x: hidden;
 }
 
+.hero-about-us {
+  background: url("../public/about-us-hero.png") fixed center;
+  background-size: cover;
+}
+
+.hero-impact {
+  background: url("../public/impact-hero.png") fixed center;
+  background-size: cover;
+}
+
 .hero .overlay {
   position: absolute;
   inset: 0 0 0 0;
