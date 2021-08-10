@@ -9,6 +9,11 @@ body.about-us-body {
   overflow-x: hidden;
 }
 
+body.about-us-body.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
 .members-container {
   width: 90%;
   margin: 60px auto;
