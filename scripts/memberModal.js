@@ -1,3 +1,7 @@
+setTimeout(() => {
+  document.body.classList.remove("preload");
+}, 500);
+
 const aboutUsModal = document.querySelector(".about-us-modal");
 const aboutUsModalOverlay = document.querySelector(".about-us-modal .overlay");
 const memberContainers = document.getElementsByClassName("member-container");

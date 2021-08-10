@@ -1,3 +1,14 @@
+body.preload * {
+  animation-duration: 0s !important;
+  -webkit-animation-duration: 0s !important;
+  transition: background-color 0s, opacity 0s, color 0s, width 0s, height 0s,
+    padding 0s, margin 0s !important;
+}
+
+body.about-us-body {
+  overflow-x: hidden;
+}
+
 .members-container {
   width: 90%;
   margin: 60px auto;
@@ -59,6 +70,8 @@
   margin: 10px 0;
 }
 
+/* modal */
+
 .about-us-modal {
   position: fixed;
   inset: 0;
@@ -67,16 +80,12 @@
   transition: all 0.3s;
 }
 
-.about-us-modal.enabled {
-  opacity: 100%;
-  z-index: 2;
-}
-
 .about-us-modal .overlay {
   position: absolute;
   inset: 0;
   background: #000;
   opacity: 40%;
+  cursor: pointer;
 }
 
 .about-us-modal .about-us-modal-content {
@@ -90,6 +99,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: 100%;
+  animation: blowUpModalTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 .about-us-modal .about-us-modal-content .about-us-modal-text-content {
@@ -103,4 +113,68 @@
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.about-us-modal + .members-container {
+  animation: blowUpContentTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+/* enabled modal */
+
+.about-us-modal.enabled {
+  opacity: 100%;
+  z-index: 2;
+}
+
+.about-us-modal.enabled .about-us-modal-content {
+  animation: blowUpModal 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+.about-us-modal.enabled + .members-container {
+  animation: blowUpContent 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+@keyframes blowUpContent {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  99.9% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes blowUpContentTwo {
+  0% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes blowUpModal {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes blowUpModalTwo {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
 }
