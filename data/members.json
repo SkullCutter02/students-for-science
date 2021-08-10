@@ -23,6 +23,18 @@
       "name": "Herbert Chen",
       "position": "Co-Founder",
       "bio": "As a child, I’ve always been interested in how the things around us work. From visits to the zoo or just watching experiments online, the opportunity to see such cool things has sparked my curiosity for science. However, I realised that I take these experiences for granted, as there are many children who are less fortunate than I am, leaving their thirst for knowledge to disappear. With Students for Science, I hope that the lessons and services we provide are able to spark their interest for sciences, and rekindle their passion for learning!"
+    },
+    {
+      "id": 5,
+      "name": "Alan Au",
+      "position": "Co-head of Tech",
+      "bio": "Hi, my name is Alan Au, and I am the Co-head of Technology at Students for Science, and my responsibilities cover everything related to tech, including the making of this website. I like watching movies, gaming, and coding, as well as playing the oboe and the drums. I've been coding for one and a half year now, and web development for around a year. I'm proficient in both the frontend and the backend of web development."
+    },
+    {
+      "id": 6,
+      "name": "Alvin Ng",
+      "position": "Co-head of Tech",
+      "bio": "Hello everyone! My name is Alvin Ng, and I am the co-head of technology at Students for Science. Web development and music are both big parts of my life, which is why I often spend my free time coding and designing websites or playing the violin. I am particularly passionate about front-end web development, and I hope I will be able to contribute to and promote this project through my passion for coding and web design."
     }
   ]
 }
