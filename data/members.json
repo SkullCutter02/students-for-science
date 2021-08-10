@@ -1,0 +1,28 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Alexander Zhang",
+      "position": "Co-Founder",
+      "bio": "Growing up, I was inspired by the likes of Neil DeGrasse Tyson, Bill Nye, Carl Sagan through their science outreach and fell in love with the natural sciences to become a science communicator myself. At the age of 4 I established my own paleontology Q&A platform and as I got older, I explored evolutionary biology and the exploration of the origin of life led me to the origin of the universe in astronomy and astrophysics. As you can see, I have been around the block in terms of the sciences and have developed my own philosophies to approach science communication. As Carl Sagan once said, “Science is more than a body of knowledge. It is a way of thinking; a way of skeptically interrogating the universe with a fine understanding of human fallibility”. With Students for Science, I hope to not only teach scientific content but to impart the mindset of scientific inquiry and problem solving that will be the key to many of the contemporary issues that we face today!"
+    },
+    {
+      "id": 2,
+      "name": "David Yeung",
+      "position": "Co-Founder",
+      "bio": "From an early age, science and medicine were always topics of interest that would have me on the edge of my seat, trying to grasp opportunities to learn more about how life and the world around us works. As Oprah once famously said, “Education is the key to unlocking the world, a passport to freedom.” Her words have definitely rang true for me. By educating myself about science, I was able to explain a myriad of phenomena that I could not comprehend as a child and it opened my eyes to the limitless possibilities and unbounded nature of life itself. Now all grown up, I have the golden opportunity to impact the lives of more children like myself back then, and I strive to spread my passion and curiosity for science to those in our communities. I want to be able to look back at my journey with Students for Science with rose-tinted glasses and be grateful to have helped ink so many stamps into the passports of education and freedom of those around me."
+    },
+    {
+      "id": 3,
+      "name": "Silvia Peng",
+      "position": "Co-Founder",
+      "bio": "Hi I am Silvia and I like science and I think it's important for other people to learn science."
+    },
+    {
+      "id": 4,
+      "name": "Herbert Chen",
+      "position": "Co-Founder",
+      "bio": "As a child, I’ve always been interested in how the things around us work. From visits to the zoo or just watching experiments online, the opportunity to see such cool things has sparked my curiosity for science. However, I realised that I take these experiences for granted, as there are many children who are less fortunate than I am, leaving their thirst for knowledge to disappear. With Students for Science, I hope that the lessons and services we provide are able to spark their interest for sciences, and rekindle their passion for learning!"
+    }
+  ]
+}
