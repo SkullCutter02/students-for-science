@@ -133,6 +133,27 @@ body.about-us-body.stop-scrolling {
   animation: blowUpContentTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
+@media screen and (max-width: 1050px) {
+  .members-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 60px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .members-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .member-container img {
+    height: 240px;
+  }
+}
+
 /* enabled modal */
 
 .about-us-modal.enabled {
