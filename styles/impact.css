@@ -1,7 +1,7 @@
 /* general */
 
 .impact-section {
-  margin: 20px auto;
+  margin: 60px auto 0 auto;
   width: 90%;
 }
 
@@ -15,16 +15,20 @@
   line-height: 1.5em;
 }
 
+.impact-section article:not(.impact-container article) {
+  margin-top: 30px;
+}
+
+.impact-section:last-child {
+  margin-bottom: 70px;
+}
+
 /* current and potential impact */
 
 .impact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
-}
-
-.impact {
-  margin-top: 40px;
 }
 
 .impact p {
@@ -42,46 +46,41 @@
   }
 }
 
-/* branches of hope */
+/* schools */
 
-.boh-container {
-  margin-top: 60px;
-}
-
-.boh-container article {
+.school-container article {
   display: grid;
   grid-column-gap: 40px;
   grid-row-gap: 30px;
   grid-template-areas:
     "image1 image2"
     "text text";
-  margin-top: 30px;
 }
 
-.boh-container article img {
+.school-container article img {
   height: 250px;
   width: 100%;
   object-fit: cover;
 }
 
-.boh-container article .image-1 {
+.school-container article .image-1 {
   grid-area: image1;
 }
 
-.boh-container article .image-2 {
+.school-container article .image-2 {
   grid-area: image2;
 }
 
-.boh-container article p {
+.school-container article p {
   grid-area: text;
 }
 
 @media screen and (max-width: 700px) {
-  .boh-container article {
+  .school-container article {
     grid-column-gap: 30px;
   }
 
-  .boh-container article img {
+  .school-container article img {
     height: 200px;
   }
 }
