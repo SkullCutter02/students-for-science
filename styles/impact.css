@@ -1,29 +1,87 @@
-.impact-container {
+/* general */
+
+.impact-section {
   margin: 20px auto;
   width: 90%;
+}
+
+.impact-section h1 {
+  font-size: 1.6rem;
+  font-family: var(--alternateFont);
+}
+
+.impact-section p {
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+/* current and potential impact */
+
+.impact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
 }
 
 .impact {
-  margin: 40px 0;
-}
-
-.impact h1 {
-  font-size: 1.6rem;
-  font-family: var(--alternateFont);
+  margin-top: 40px;
 }
 
 .impact p {
   margin-top: 15px;
-  text-align: justify;
-  line-height: 1.5em;
 }
 
 @media screen and (max-width: 600px) {
   .impact-container {
     grid-template-columns: 1fr;
     grid-gap: 20px;
+  }
+
+  .potential-impact {
+    margin-bottom: 0;
+  }
+}
+
+/* branches of hope */
+
+.boh-container {
+  margin-top: 60px;
+}
+
+.boh-container article {
+  display: grid;
+  grid-column-gap: 40px;
+  grid-row-gap: 30px;
+  grid-template-areas:
+    "image1 image2"
+    "text text";
+  margin-top: 30px;
+}
+
+.boh-container article img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.boh-container article .image-1 {
+  grid-area: image1;
+}
+
+.boh-container article .image-2 {
+  grid-area: image2;
+}
+
+.boh-container article p {
+  grid-area: text;
+}
+
+@media screen and (max-width: 700px) {
+  .boh-container article {
+    grid-column-gap: 30px;
+  }
+
+  .boh-container article img {
+    height: 200px;
   }
 }
