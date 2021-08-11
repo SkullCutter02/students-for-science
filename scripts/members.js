@@ -14,7 +14,7 @@ fetch("../data/members.json")
     members.forEach((member) => {
       output += `
         <section class="member-container">
-          <img src="./public/members/member-${member.id}.jpg" alt="${member.name}">
+          <img src="./public/members/member-${member.id}.jpg" alt="${member.name}" loading="lazy">
           <div class="member-text-container">
             <h1 class="member-name">${member.name}</h1>
             <div class="separator"></div>
