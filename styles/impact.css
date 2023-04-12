@@ -12,7 +12,8 @@
 
 .impact-section p {
   text-align: justify;
-  line-height: 1.5em;
+  line-height: 1.7em;
+  font-size: 1.2em;
 }
 
 .impact-section article:not(.impact-container article) {
@@ -53,13 +54,13 @@
   grid-column-gap: 40px;
   grid-row-gap: 30px;
   grid-template-areas:
-    "image1 image2"
-    "text text";
+    "image1 text"
+    "image2 text";
 }
 
 .school-container article img {
-  height: 250px;
-  width: 100%;
+  height: 350px;
+  width: 690px;
   object-fit: cover;
 }
 
